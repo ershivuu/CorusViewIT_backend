@@ -14,9 +14,9 @@ app.use(bodyParser.json());
 
 // MySQL database configuration
 const db = mysql.createConnection({
-  host: "corusviewit.cn8suoemkml0.us-east-2.rds.amazonaws.com",
-  user: "CorusviewIT",
-  password: "7879401825",
+  host: "corusview-it.cn8suoemkml0.us-east-2.rds.amazonaws.com",
+  user: "corusview",
+  password: "corusviewitservices",
   database: "corusview_it",
 });
 
